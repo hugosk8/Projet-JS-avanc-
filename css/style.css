@@ -1,0 +1,43 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(255, 248, 239);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#coordonnees {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#liste_cinemas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#liste_cinemas li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    background-color: rgb(251, 230, 204);
+}
+
+#liste_cinemas li p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+#liste_cinemas li p:last-child {
+    font-weight: bolder;
+}
